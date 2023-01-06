@@ -181,3 +181,87 @@ h4 {
   width: 25px;
   vertical-align: bottom;
 }
+
+@media screen and (max-width: 480px) {
+  section {
+    margin: 0;
+  }
+  .caixa {
+    width: auto;
+  }
+
+  .caixa h1 {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .textos {
+    margin: 20px;
+    display: inline;
+  }
+
+  .texto-entrada {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .texto-entrada textarea {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .input-texto {
+    max-width: 100%;
+    max-height: 180px;
+    margin: 10px;
+  }
+
+  #texto-resultado {
+    max-width: 90%;
+    max-height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  #output-texto {
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 20px;
+  }
+
+  .imagem-search {
+    height: 60%;
+    width: 50%;
+    margin: auto;
+  }
+
+  #texto-resultado p {
+    height: 10%;
+    width: 100%;
+    margin: 0;
+  }
+  #copiar {
+    width: 100%;
+    text-align: center;
+  }
+  .botoes {
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  .criptografia {
+    width: 50%;
+    scale: 0.8;
+  }
+  .descriptografia {
+    width: 50%;
+    scale: 0.8;
+    margin: 0;
+  }
+}
